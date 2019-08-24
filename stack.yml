@@ -28,6 +28,6 @@ services:
       MAYAN_DATABASE_PASSWORD: mayan-password
       MAYAN_DATABASE_USER: mayan
       MAYAN_DATABASE_CONN_MAX_AGE: 0
-      MAYAN_APT_INSTALLS='tesseract-ocr-deu'
+      MAYAN_APT_INSTALLS: tesseract-ocr-deu
     volumes:
       - app:/var/lib/mayan
